@@ -1,0 +1,43 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+auth.json
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies and generated assets
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+.phpunit.cache/
+.phpunit.result.cache
+
+# Runtime output
+*.log
+storage/logs/*
+storage/cache/*
+storage/sessions/*
+
+# Customer data and backups
+backups/
+private-data/
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Local editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
